@@ -12,6 +12,7 @@ import frozen_foods from "./frozen_foods.png";
 import personal_care from "./personal_care.png";
 import baby_care from "./baby_care.png";
 import meat_seafood from "./meat_seafood.png";
+import fruits_banner from "./fruits_banner.png";
 
 export const assets = {
     delivery_truck,
@@ -34,6 +35,7 @@ export const categoriesData = [
 export const heroSectionData = {
     description: "Fresh, organic groceries delivered from local farms to your doorstep. Quality you can taste, convenience you deserve.",
     hero_image: hero_bg,
+    fruits_banner: fruits_banner,
     hero_features: [
         { icon: TruckIcon, title: "Free Delivery", desc: "Orders over $20" },
         { icon: LeafIcon, title: "100% Organic", desc: "Certified products" },

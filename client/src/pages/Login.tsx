@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { heroSectionData } from "../assets/assets";
 import { Link, useNavigate } from "react-router-dom";
-import { BikeIcon, Loader2Icon, LockIcon, MailIcon, ShoppingBag, ShoppingBagIcon, Store, UserIcon } from "lucide-react";
+import {  Loader2Icon, LockIcon, MailIcon, ShoppingBag, ShoppingBagIcon, Store, UserIcon } from "lucide-react";
 
 const Login = () => {
 
@@ -24,7 +24,7 @@ const Login = () => {
     <div className="min-h-screen flex">
       
       <div className="hidden lg:flex lg:w-1/2 bg-app-green relative items-center justify-center">
-        <img src={heroSectionData.hero_image} alt="" 
+        <img src={heroSectionData.fruits_banner} alt="" 
         className="absolute inset-0 object-cover h-full bg-center opacity-10" />
         <div className="relative text-center px-12">
           <h2 className="text-4xl font-semibold text-white mb-4">Welcome back to GrossaryMart</h2>
